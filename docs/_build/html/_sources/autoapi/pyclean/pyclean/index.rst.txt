@@ -1,0 +1,45 @@
+:py:mod:`pyclean.pyclean`
+=========================
+
+.. py:module:: pyclean.pyclean
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   pyclean.pyclean.remove_missing_values
+   pyclean.pyclean.remove_duplicates
+
+
+
+.. py:function:: remove_missing_values(df, axis=0)
+
+   Remove rows or columns with missing values (NaNs).
+
+   :param df:
+   :type df: Input DataFrame.
+   :param axis:
+   :type axis: Axis along which to drop rows or columns. Default is 0 for rows.
+   :param Returns:
+   :param df:
+   :type df: DataFrame with missing values removed.
+
+
+.. py:function:: remove_duplicates(df)
+
+   Remove duplicate rows from DataFrame.
+
+   :param df:
+   :type df: Input DataFrame.
+   :param Returns:
+   :param --------:
+   :param df:
+   :type df: DataFrame with duplicate rows removed.
+
+

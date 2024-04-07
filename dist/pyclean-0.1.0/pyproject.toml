@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pyclean"
+version = "0.1.0"
+description = "To clean raw data through removing duplicates and empty values"
+authors = ["Darwin Zhang"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.1"
+pytest = "^8.1.1"
+numpy = "^1.26.4"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+pytest-cov = "^5.0.0"
+jupyter = "^1.0.0"
+myst-nb = {version = "^1.0.0", python = "^3.9"}
+sphinx-autoapi = "^3.0.0"
+sphinx-rtd-theme = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,35 @@
+:py:mod:`pyclean.compare`
+=========================
+
+.. py:module:: pyclean.compare
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   pyclean.compare.compare_data
+
+
+
+.. py:function:: compare_data(raw_data, processed_data)
+
+   Compare DataFrame function
+
+   Parameters:
+   -----------
+   raw_data : Input raw/original DataFrame.
+   processed_data : Input processed DataFrame.
+
+   Returns:
+   --------
+   dict : A dictionary containing comparison results including the difference
+           in the number of missing values and unique values between the
+           raw and processed DataFrames.
+
+

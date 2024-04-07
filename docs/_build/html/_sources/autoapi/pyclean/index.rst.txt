@@ -1,0 +1,23 @@
+:py:mod:`pyclean`
+=================
+
+.. py:module:: pyclean
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   compare/index.rst
+   pyclean/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+
+   
+
