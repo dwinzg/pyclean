@@ -4,6 +4,7 @@ import pytest
 import sys
 sys.path.append('src/pyclean')
 from pyclean import pyclean
+from pyclean import compare
 
 # Test remove_missing_values function
 def test_remove_missing_values():
@@ -45,7 +46,7 @@ def test_compare_data():
     processed_data = generate_random_dataframe(num_rows, 5)  
     
     # Compare DataFrame
-    comparison_results = pyclean.compare_data(raw_data, processed_data)
+    comparison_results = compare.compare_data(raw_data, processed_data)
     
     # Check if missing values comparison is correct
     for column in raw_data.columns:

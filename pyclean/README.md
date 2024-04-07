@@ -10,7 +10,14 @@ $ pip install pyclean
 
 ## Usage
 
-- TODO
+`pyclean` can be used clean a DataFrame through dropping duplicates and empty values
+as follows:
+
+```python
+from pyclean.pyclean import remove_missing_values
+from pyclean.pyclean import remove_duplicates
+from pyclean.compare import compare
+```
 
 ## Contributing
 
