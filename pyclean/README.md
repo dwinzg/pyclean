@@ -1,6 +1,6 @@
 # pyclean
 
-To clean DataFrame from removing empty values or duplicates
+To clean raw data through removing duplicates and empty values
 
 ## Installation
 

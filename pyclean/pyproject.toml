@@ -1,13 +1,15 @@
 [tool.poetry]
 name = "pyclean"
 version = "0.1.0"
-description = "To clean DataFrame from removing empty values or duplicates"
+description = "To clean raw data through removing duplicates and empty values"
 authors = ["Darwin Zhang"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pandas = "^2.2.1"
+pytest = "^8.1.1"
 
 [tool.poetry.dev-dependencies]
 
