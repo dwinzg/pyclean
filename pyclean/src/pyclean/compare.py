@@ -1,6 +1,17 @@
-import pandas as pd
-
 def compare_data(raw_data, processed_data):
+    """Compare DataFrame function
+    
+    Parameters:
+    -----------
+    raw_data : Input raw/original DataFrame.
+    processed_data : Input processed DataFrame.
+
+    Returns:
+    --------
+    dict : A dictionary containing comparison results including the difference
+            in the number of missing values and unique values between the
+            raw and processed DataFrames.
+    """
     # Compare number of missing values
     raw_missing_values = raw_data.isnull().sum()
     processed_missing_values = processed_data.isnull().sum()
@@ -15,7 +26,7 @@ def compare_data(raw_data, processed_data):
     comparison_results = {
         'missing_values': missing_values_diff,
         'unique_values': unique_values_diff
-        # Add more comparisons as needed
+
     }
     
     return comparison_results
